@@ -1,4 +1,4 @@
-import 'package:ecommers_ui/core/enum/viewstate.dart';
+import 'package:ecommerce_ui/core/enum/viewstate.dart';
 import 'package:flutter/cupertino.dart';
 
 class BaseModel extends ChangeNotifier {

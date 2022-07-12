@@ -1,11 +1,12 @@
-import 'package:ecommers_ui/core/routing/routes.dart';
+import 'package:ecommerce_ui/core/routing/routes.dart';
+import 'package:ecommerce_ui/ui/home_view.dart';
 import 'package:flutter/material.dart';
 
 class PageRouter {
   static Route<dynamic> generateRoute(RouteSettings settings) {
     switch (settings.name) {
-      case Routes.masterPasswordLogin:
-        return MaterialPageRoute(builder: (context) => const MasterPasswordLoginView());
+      case Routes.homeView:
+        return MaterialPageRoute(builder: (context) => const HomeView());
       default:
         return MaterialPageRoute(
           builder: (context) {
