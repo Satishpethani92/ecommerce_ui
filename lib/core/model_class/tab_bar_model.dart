@@ -15,3 +15,4 @@ List<TabBarGridModel> tabBarGridModel = [
   TabBarGridModel(imageUrl: ImageConstant.tabImage3, titleName: '21WN reversible angora cardigan', price: '\$120'),
   TabBarGridModel(imageUrl: ImageConstant.tabImage4, titleName: 'Oblong bag', price: '\$120'),
 ];
+

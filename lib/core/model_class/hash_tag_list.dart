@@ -1,0 +1,1 @@
+List<String> hashTagList = ['#2021','#spring','#collection','#fall','#dress','#autumncollection','#openfashion'];
